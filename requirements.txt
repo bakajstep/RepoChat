@@ -1,0 +1,7 @@
+llama-index
+llama-cpp-python
+llama-index-llms-llama-cpp
+gitpython
+sentence-transformers
+huggingface_hub
+llama-index-embeddings-huggingface

@@ -1,0 +1,32 @@
+{
+  "mistral": {
+    "repo_id": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+    "filename": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+    "context_window": 32768,
+    "n_gpu_layers": 28,
+    "n_batch": 1024,
+    "f16_kv": true,
+    "rope_scaling": "linear",
+    "quantization": "Q4_K_M"
+  },
+  "llama3": {
+    "repo_id": "TheBloke/Llama-3-8B-Instruct-GGUF",
+    "filename": "llama-3-8b-instruct.Q4_K_M.gguf",
+    "context_window": 32768,
+    "n_gpu_layers": 30,
+    "n_batch": 1024,
+    "f16_kv": true,
+    "rope_scaling": "linear",
+    "quantization": "Q4_K_M"
+  },
+  "deepseek": {
+    "repo_id": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+    "filename": "deepseek-coder-6.7b-instruct.Q4_K_M.gguf",
+    "context_window": 32768,
+    "n_gpu_layers": 26,
+    "n_batch": 1024,
+    "f16_kv": true,
+    "rope_scaling": "linear",
+    "quantization": "Q4_K_M"
+  }
+}
