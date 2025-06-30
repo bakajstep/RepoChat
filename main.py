@@ -57,7 +57,7 @@ def main():
     llm = LlamaCPP(
         model_path=model_path,
         temperature=0.1,
-        max_new_tokens=512,
+        max_new_tokens=2048,
         generate_kwargs={"top_p": 0.9},
         model_kwargs={
             "n_gpu_layers": model_info.get("n_gpu_layers", 20),
