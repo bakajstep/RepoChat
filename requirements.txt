@@ -5,3 +5,4 @@ gitpython
 sentence-transformers
 huggingface_hub
 llama-index-embeddings-huggingface
+gradio
